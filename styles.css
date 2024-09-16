@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 15px;
+}
+
+label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+input, button {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #b8855c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a87f60;
+}
+
+a.button {
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #b8855c;
+  color: white;
+  font-size: 1.2rem;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+a.button:hover {
+  background-color: #a87f60;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-center a {
+  color: #b8855c;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
